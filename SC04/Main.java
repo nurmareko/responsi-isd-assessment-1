@@ -12,6 +12,6 @@ public class Main {
         parkingLot.pop();
         parkingLot.pop();
         parkingLot.pop();
-        // parkingLot.pop();
+        parkingLot.pop();
     }
 }

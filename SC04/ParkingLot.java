@@ -17,7 +17,7 @@ public class ParkingLot {
 
     public void pop() {
         if (numberOfItem == 0) {
-            System.out.println("stack empty");
+            System.out.println("Parkiran kosong");
             return;
         }
 
