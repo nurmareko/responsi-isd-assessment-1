@@ -22,7 +22,6 @@ public class Playlist {
 
     public void add(String piece) {
         playlist.add(piece);
-        System.out.println(piece + " ditambahkan ke " + playlistName + " :)");
     }
 
     public void remove(String piece) {
@@ -36,10 +35,14 @@ public class Playlist {
     }
 
     public void find(String piece) {
+        System.out.println("Mencari: " + piece);
+
         if (playlist.contains(piece)) {
-            System.out.println(piece + " ada di " + playlistName);
+            System.out.println("Piece ketemu!");
+            int position = playlist.indexOf(piece) + 1;
+            System.out.println(position + ". " + piece);
         } else {
-            System.out.println(piece + " tidak ditemukan di " + playlistName);
+            System.out.println("Tidak ditemukan");
         }
     }
 
