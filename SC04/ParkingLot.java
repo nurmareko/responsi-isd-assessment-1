@@ -2,8 +2,8 @@ import java.util.Stack;
 
 public class ParkingLot {
 
-    Stack<String> stack;
-    int numberOfItem;
+    private Stack<String> stack;
+    private int numberOfItem;
 
     public ParkingLot() {
         stack = new Stack<>();

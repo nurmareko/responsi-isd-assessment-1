@@ -3,7 +3,7 @@ import java.util.Queue;
 
 public class PrinterQueue {
 
-    Queue<String> documents;
+    private Queue<String> documents;
 
     public PrinterQueue() {
         documents = new LinkedList<>();

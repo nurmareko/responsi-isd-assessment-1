@@ -2,8 +2,8 @@ import java.util.Stack;
 
 public class BrowsingHistory {
 
-    Stack<String> backHistory;
-    Stack<String> forwardHistory;
+    private Stack<String> backHistory;
+    private Stack<String> forwardHistory;
 
     public BrowsingHistory() {
         backHistory = new Stack<>();
